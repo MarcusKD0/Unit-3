@@ -1,5 +1,55 @@
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 10vh;
+    text-justify: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     /* display: none; <- Crashes Chrome on hover */
     -webkit-appearance: none;
-    margin: 0; }
+    margin: 0; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+h3{
+    margin-bottom: .5em;
+}
+#state{
+    padding: 1px 2px;
+    border: 2px inset gray;
+}
+.scale{
+    width:100%; 
+    justify-content: center;
+}
+header, h1 {
+    margin-top: 0;
+}
+.box{
+    height: 5vh;
+    background-color: silver;
+    text-align: right;
+}
+#comments{
+    height: 25vh;
+}
+:focus{
+    background-color: aqua
+}
+select{
+    height: 10vh;
+}
+#drpdwn{
+    height: 10vh;
+}
