@@ -50,11 +50,14 @@ h3{
     border-radius: 5px;
 }
 .dashed{
-    text-align: center;
     text-decoration: underline dashed;
 }
 #comments{
     height: 25vh;
+    transition: 3s;
+}
+#comments:focus{
+    background-color: lightblue;
 }
 :focus{
     background-color: darkslategrey;
