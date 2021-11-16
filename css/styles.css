@@ -54,15 +54,12 @@ h3{
 }
 #comments{
     height: 25vh;
-    transition: 3s;
-}
-#comments:focus{
-    background-color: lightblue;
 }
 :focus{
-    background-color: darkslategrey;
+    background-color: lightblue;
     outline-color: darkturquoise;
     color: white;
+    transition: 3s;
 }
 select{
     height: 10vh;
